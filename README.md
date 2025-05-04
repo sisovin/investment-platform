@@ -35,10 +35,12 @@ Welcome to the **Investment Platform** repository! This platform is designed to 
 - **TypeScript**: Primary language (99.2% of the codebase).
 
 ### Tools & Frameworks
-- **Node.js**: Backend runtime environment.
-- **React**: Frontend framework for building user interfaces.
-- **Express.js**: Backend framework for handling HTTP requests.
-- **MongoDB**: NoSQL database for managing data persistence.
+- **Angular 19**: Frontend framework for building dynamic and scalable user interfaces.
+- **NestJS**: Backend framework for creating robust and maintainable APIs.
+- **Tailwind CSS**: Utility-first CSS framework for building modern and responsive UIs.
+- **PostgreSQL**: SQL database with Prisma ORM for efficient querying and schema migrations.
+- **argon2**: Secure password hashing algorithm.
+- **JWT**: Token-based authentication for secure API interactions.
 - **Jest**: Testing framework for unit and integration tests.
 
 ### Other
@@ -46,6 +48,24 @@ Welcome to the **Investment Platform** repository! This platform is designed to 
 - **GitHub Actions**: CI/CD workflows.
 - **ESLint**: Code linting for maintaining style consistency.
 
+---
+## Project Structure
+
+1. **Angular 19 and NestJS Setup**: A monorepo structure to manage both frontend and backend codebases. 
+   - Run `npm install` to set up dependencies.
+   - Use `npm start` to concurrently launch the Angular frontend and NestJS backend.
+   
+2. **Reusable Components**: Tailwind CSS-based UI components that are modular and customizable.
+   
+3. **Database Setup**: PostgreSQL database integrated with Prisma ORM for migrations and schema management.
+   - To initialize the database, run:
+     ```bash
+     npx prisma migrate dev
+     ```
+
+4. **Authentication and Security**: Implements argon2 for hashing and JWT for secure user authentication.
+
+5. **SEO Optimization**: Metadata tags and search-engine-friendly content for better discoverability.
 ---
 
 ## Setup and Installation
