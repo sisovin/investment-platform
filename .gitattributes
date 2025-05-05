@@ -1,4 +1,4 @@
 *.ts linguist-language=TypeScript
-*.html linguist-language=HTML
-*.scss linguist-language=CSS
-*.css linguist-language=CSS
+*.html linguist-vendored
+*.scss linguist-vendored
+*.css linguist-vendored
